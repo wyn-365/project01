@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs (3)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dataSouceJdbcTemplate/libs/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dataSouceJdbcTemplate/libs/spring-beans-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dataSouceJdbcTemplate/libs/spring-core-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dataSouceJdbcTemplate/libs/spring-jdbc-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dataSouceJdbcTemplate/libs/spring-tx-5.0.0.RELEASE.jar!/" />
+      <root url="file://$PROJECT_DIR$/dataSouceJdbcTemplate/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/dataSouceJdbcTemplate/libs" recursive="false" />
+  </library>
+</component>

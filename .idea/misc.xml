@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springmvc01" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc02" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc03_fileupload" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc04_exception" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc05_interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/travel" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/travel/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc01/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc02/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc03_fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis01/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc04_exception/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc05_interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis03_dynamicSQL/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis04_1_m/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis05_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring01_IOC/pom.xml" />
+        <option value="$PROJECT_DIR$/spring02_IOC_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring03_jdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/spring04_AOP/pom.xml" />
+        <option value="$PROJECT_DIR$/mongod/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>global对象</title>
+    <script>
+        //不需要对象，直接调用，为全局对象
+        //encodeURI() decodeURI()  URL的编码和解码
+        //URL编码 【http不支持中文，必须转码，需要利用URL的编码】
+        var str = "泽泽";
+        var encode = encodeURI(str);
+        document.write(encode+"<br>");
+
+        var decode = decodeURI(encode);
+        document.write(decode+"<br>")
+
+
+        var str1 = "泽泽";
+        var encode1 = encodeURIComponent(str1);
+        document.write(encode1+"<br>");
+
+        var decode1 = decodeURIComponent(encode1);
+        document.write(decode1+"<br>")
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

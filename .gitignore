@@ -1,0 +1,18 @@
+# Project exclude paths
+/mongod/target/
+/mybatis01/target/
+/mybatis02/target/
+/mybatis03_dynamicSQL/target/
+/mybatis04_1_m/target/
+/mybatis05_annotation/target/
+/out/
+/spring01_IOC/target/
+/spring02_IOC_annotation/target/
+/spring03_jdbcTemplate/target/
+/spring04_AOP/target/
+/springmvc01/target/
+/springmvc02/target/
+/springmvc03_fileupload/target/
+/springmvc04_exception/target/
+/springmvc05_interceptor/target/
+/travel/target/

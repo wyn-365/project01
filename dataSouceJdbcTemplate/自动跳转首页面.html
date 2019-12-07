@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动跳转</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        span{
+            color:red;
+        }
+    </style>
+
+</head>
+<body>
+<p>   <span id="time">5</span>秒后，自动跳转到首页...
+
+</p>
+
+
+
+
+<script>
+    /**
+     *  —_秒后，自动跳转到首页！
+     *  倒计时读秒，定时器
+     *      定义一个方法：获取span，每一次修改一次数字，到0时，跳转
+     *      一秒执行一次方法
+     *         时间小于等于0，跳转
+     *
+     */
+
+    //显示倒计时
+    var second = 5;
+    function showTime() {
+        second --;
+        if (second<=0){
+            location.href="https://www.baidu.com";
+        }else {
+            var time = document.getElementById("time");
+            time.innerHTML = second + "";
+        }
+    }
+
+    //设置定时器，一秒只新发一次
+    setInterval(showTime,1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<img id="login" src="img/mr0002.jpg" onclick="fun();">
+<img id="login2" src="img/mr0002.jpg" >
+
+
+<script>
+    function fun() {
+        alert('我被点了');
+        alert('我又被点了');
+    }
+
+    function fun2() {
+        alert('aaaaaaaa');
+
+    }
+
+    //获取login2对象
+    var login2 = document.getElementById("login2");
+    //绑定时间
+    login2.onclick = fun2;
+</script>
+</body>
+</html>

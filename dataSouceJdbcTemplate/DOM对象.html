@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM对象也就是document</title>
+<!--Document Object Model  文档对象模型
+将标记语言的各个组成部分，封装成为对象
+可以使用对象，对文档进行动态操作，增删改查
+【HTML DOM树】
+HTML文档进入内存，会被转换树，找到父级标签可以，文档树形结构
+DOM定义了访问HTML和xml标准
+-->
+</head>
+<body>
+  <img id="login" src="img/mr0002.jpg">
+  <h1 id="title">我最后悔创建阿里巴巴</h1>
+
+  <script>
+      //控制HTML文档的内容【增删改查等操作 获取页面的标签，元素对象
+      // 都被封装成了Element对象
+      // document.getElementById(id值) 通过元素的id 来获取id】
+      //操作Element对象 设置属性，修改属性值
+
+      /*var login = document.getElementById("login");
+      alert("下面换图片");
+      login.src = "img/mr0003.jpg";*/
+
+      //获取h1对象
+      var title = document.getElementById("title");
+      alert("我要换内容了");
+      //修改内容 inner
+      title.innerHTML="奥巴马退休";
+
+  </script>
+
+
+</body>
+</html>

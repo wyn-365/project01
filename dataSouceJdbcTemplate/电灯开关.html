@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img id="login" src="img/mr0002.jpg">
+
+<script>
+    //获取图片对象
+    var login = document.getElementById("login");
+
+    var flag = false;//代表灯光是咩的
+
+    //绑定单击事件
+    login.onclick = function () {
+        if (flag) {
+            //如果开，则灭掉
+            login.src="img/mr0002.jpg";
+            flag=false;
+        }else{
+            login.src = "img/mr0003.jpg";
+            flag=true;
+        }
+
+    }
+</script>
+</body>
+</html>

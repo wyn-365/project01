@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springmvc02" />
+        <module name="springmvc01" />
+        <module name="spring04_AOP" />
+        <module name="spring02_IOC_annotation" />
+        <module name="springmvc05_interceptor" />
+        <module name="mybatis04_1_m" />
+        <module name="mongod" />
+        <module name="spring03_jdbcTemplate" />
+        <module name="mybatis05_annotation" />
+        <module name="mybatis02" />
+        <module name="mybatis03_dynamicSQL" />
+        <module name="springmvc04_exception" />
+        <module name="spring01_IOC" />
+        <module name="springmvc03_fileupload" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mongod" target="1.5" />
+      <module name="mybatis01" target="1.5" />
+      <module name="mybatis02" target="1.5" />
+      <module name="mybatis03_dynamicSQL" target="1.5" />
+      <module name="mybatis04_1_m" target="8" />
+      <module name="mybatis05_annotation" target="1.5" />
+      <module name="spring01_IOC" target="1.5" />
+      <module name="spring02_IOC_annotation" target="1.5" />
+      <module name="spring03_jdbcTemplate" target="1.5" />
+      <module name="spring04_AOP" target="1.5" />
+      <module name="springmvc01" target="1.8" />
+      <module name="springmvc02" target="1.8" />
+      <module name="springmvc03_fileupload" target="1.8" />
+      <module name="springmvc04_exception" target="1.8" />
+      <module name="springmvc05_interceptor" target="1.8" />
+      <module name="travel" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

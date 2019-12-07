@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+</head>
+<body>
+
+<img id="img" src = "img/banner_1.png" width="100%">
+
+<script>
+    /**
+     * 1、页面使用img展示图片
+     * 2、js定义控制图片路径的切换，定义一个方法，修改图片对象的src属性
+     * 3、定义一个计时器，每隔三秒调用一次
+     */
+        //修改图片的src属性的方法
+    var number = 1;
+    function fun() {
+        number ++;
+        //判断number》3？
+        if (number>3){
+            number = 1;
+        }
+        var img = document.getElementById("img");
+        img.src = "img/banner_"+number+".png";
+    }
+
+    //定义定时器
+    window.setInterval(fun,3000);
+</script>
+</body>
+</html>

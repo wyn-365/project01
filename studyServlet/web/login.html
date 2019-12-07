@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>
+
+    http有7中提交方式
+   1、get 请求参数在请求行中，也就是请求网址中  URL有限制，不太安全
+   2、post 请求参数在请求体中，例如表单中的数据体中  URL没有限制，文件的上传只能用post，比较大，相对安全
+
+    request和response对象的原理是什么？？【服务器创建，程序员使用】
+    tomcat根据请求路径，创建对应的servlet的对象，Tomcat会创建两个对象【request，response】
+    request封装了请求数据，后去请求数据
+    response用来设置响应消息
+    Tomcat将response request 两个对象传递给service方法，调用方法
+    程序员可以操作这两个对像，获取请求消息数据，通过response对象，设置响应数据
+    服务器作出响应之前，去response中设置的数据，给客户端浏览器反应
+
+</h3>
+<form action="/demo04" method="POST">
+    <input name="username"><br>
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>
